@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  
+  <display-name>Patient_System</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Coffee</servlet-name>
+    <servlet-class>com.example.web.CoffeeSelect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.example.web.LoginSelect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ForgotPassword</servlet-name>
+    <servlet-class>com.example.web.ForgotPassword</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>UserReg</servlet-name>
+    <servlet-class>com.example.web.UserRegistration</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Symptom</servlet-name>
+    <servlet-class>com.example.web.SymptomRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MedicalHistory</servlet-name>
+    <servlet-class>com.example.web.MedicalHistory</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewPatient</servlet-name>
+    <servlet-class>com.example.web.ViewPatient</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>ListPatient</servlet-name>
+    <servlet-class>com.example.web.ListPatient</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>ListSymptoms</servlet-name>
+    <servlet-class>com.example.web.ListSymptoms</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DocViewPatient</servlet-name>
+    <servlet-class>com.example.web.DocViewPatient</servlet-class>
+  </servlet>
+  
+  
+
+  <servlet-mapping>
+    <servlet-name>Coffee</servlet-name>
+    <url-pattern>/SelectCoffee.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgotPassword</servlet-name>
+    <url-pattern>/ForgotPwd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserReg</servlet-name>
+    <url-pattern>/UserReg.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Symptom</servlet-name>
+    <url-pattern>/Symptom.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MedicalHistory</servlet-name>
+    <url-pattern>/MedicalHistory.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewPatient</servlet-name>
+    <url-pattern>/ViewPatient</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListPatient</servlet-name>
+    <url-pattern>/ListPatient</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListSymptoms</servlet-name>
+    <url-pattern>/ListSymptoms</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocViewPatient</servlet-name>
+    <url-pattern>/DocViewPatient</url-pattern>
+  </servlet-mapping>
+   
+    
+    
+</web-app>

@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+/*Header Banner and Footer*/
+.MainDiv {
+    width:910px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Header {
+    /*background-image:url("Doctor Banner.jpg");*/
+    width:910px;
+    height:210px;
+    margin-bottom:30px;
+    float:left;
+}
+.bannerImg {
+    background-image:url("Patient Care System Image.jpg");
+    width:210px;
+    height:210px;
+    float:left;
+}
+.HeaderText {
+    float:left;
+    width:670px;
+    height:210px;
+    padding-top:50px;
+    padding-left:30px;
+}
+.Footer {
+    margin-top:50px;
+    background-image:url("Footer image.jpg");
+    width:910px;
+    height:50px;
+    float:left;
+}
+
+/*Login.HTML starts here*/
+.LoginBox {
+    margin-left:auto;
+    margin-right:auto;
+    width : 470px;  
+}
+.LoginRow {
+ height:50px;
+ margin-left:60px;
+}
+#LoginTB {
+    width :186px;
+    margin-left:45px;
+}
+.LoginLabels {
+    width:100px;
+}
+.PwdRow {
+    height:50px;
+    margin-left:60px;
+}
+#PwdTB {
+    width :187px;
+    margin-left:20px;
+}
+.ForgotPwdRow {
+    height:50px;
+}
+.SubmitBtn {
+    text-align:center;
+}
+/*Login.HTML ends here here*/
+
+/*ForgotPassword.HTML starts here*/
+.ForgotPwdDiv {
+    margin-left:auto;
+    margin-right:auto;
+    width : 470px; 
+    height:150px;
+}
+/*ForgotPassword.HTML ends here*/
+
+/*UserRegistration.HTML starts here*/
+.RegForm {
+    margin-left:auto;
+    margin-right:auto;
+    width : 470px;
+}
+.LabelRow {
+    height:30px;
+}
+.MedHistory {
+width:470px;
+text-align:center;
+}
+.MedHistorylink {
+text-align:center;
+float:left;
+width:470px;
+margin-bottom:20px;
+}
+/*UserRegistration.HTML ends here*/
+
+/*MedHistoryForm.HTML starts here*/
+.CommonRow {
+    height:60px;
+    margin-bottom:20px;    
+}
+.MedHisLeft {
+    width:70%;
+    float:left;
+}
+.MedHisRight {
+    width:30%;
+    float:left;
+}
+.CommonLabel {
+    height:30px;
+    padding-top:-30px;
+}
+.LastRow {
+    height:40px;
+    margin-bottom:20px;  
+}
+
+/*MedHistoryForm.HTML ends here*/
+
+/*Symptoms Page starts here*/
+.SymptomForm {
+margin-left:20%;
+margin-right:20%;
+}
+.LabelRowTextArea {
+    height:60px;
+    
+}
+
+/*PatientViewRequest.HTML ends here*/
